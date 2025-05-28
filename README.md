@@ -39,7 +39,7 @@ AWS Route 53 (DNS 서비스)이 이 도메인 요청을 CloudFront 배포로 라
 <br/>
 <br/>
 
-## 3. 
+## 3. GitHub Actions 워크플로우 설명 (`.github/workflows/deployment.yml`)
 
 ```yaml
 name: Deploy Next.js to S3 and invalidate CloudFront # 워크플로우 이름
@@ -82,9 +82,5 @@ jobs:
         # 지정된 CloudFront 배포 ID의 모든 경로("/*")에 대해 캐시 무효화 요청
 ```
 
-<br/>
 
-<br/>
-
-## 3. GitHub Actions 워크플로우 설명 (`.github/workflows/deployment.yml`)
 
